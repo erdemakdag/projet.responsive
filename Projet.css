@@ -1,0 +1,123 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+button
+{
+    right: 15px;
+    width: 80px;
+    height: 80px;
+    margin-top: 3px;
+    background-color:#333 ;
+    width: 120px;
+    color: #fff;
+    border: 2px solid white;
+    border-radius: 100%;
+    font-weight: bold ;
+    background-position: right;
+    background-size:cover;
+    cursor: pointer;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+
+
+
+    height: 15px;
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    background-color:#333 ;
+    width: 120px;
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 100%;
+    font-weight: bold ;
+    background-position: right;
+    background-size:cover;
+    cursor: pointer;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+
+
+
+
+
+
+/* Jai besoin de ces 3*/
+
+img {
+    width: auto;      /* ici ce sont les images */
+    height: 200px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    border: 1px solid white;
+    border-radius: 7%;
+    background: rgb(253, 251, 251);
+    font-weight: normal;
+    max-width: 300px;
+    padding: 16px;
+    margin: 16px;
+    background: rgb(117, 81, 81);
+}
+
+#news {            /* le carré des articles*/
+
+    font-size: 10px;
+    color:rgb(250, 249, 249);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    grid-template-columns: 1fr;
+
+    /* changer ça pour responsive */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* Fin*/
+
+
+/*BOUTON CSS*/
+
+
+.button onclick
+{
+    color: black;
+    border: black;
+}
+
+
+.grille
+{
+    background:100vh;
+    display: grid;
+    grid-template-columns: 10fr;
+    justify-content: center;
+    grid-gap: 10px;
+    height: auto;
+    background:rgb(243, 240, 240)
+}
+
+.dark-mode {
+    background-color: rgb(27, 27, 27);
+    color: whitesmoke;
+}
+
